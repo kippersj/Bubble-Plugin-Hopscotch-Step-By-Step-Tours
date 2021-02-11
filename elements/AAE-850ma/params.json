@@ -1,0 +1,156 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Tour",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1531526693761x124143471708521250/task.png",
+    "events": {
+        "AAL": {
+            "caption": "is started",
+            "name": "onStart"
+        },
+        "AAM": {
+            "caption": "is finished",
+            "name": "onFinish"
+        },
+        "AAN": {
+            "caption": "is exited before finishing",
+            "name": "onClose"
+        },
+        "AAO": {
+            "caption": "is moved to the next step",
+            "name": "onNext"
+        },
+        "AAP": {
+            "caption": "is moved to the previous step",
+            "name": "onPrev"
+        },
+        "AAS": {
+            "caption": "call to action is clicked",
+            "name": "onCTA"
+        }
+    },
+    "fields": {
+        "AAQ": {
+            "caption": "Show back button?",
+            "default_val": true,
+            "editor": "Checkbox",
+            "in_style": false,
+            "name": "showPrevButton",
+            "rank": 1
+        },
+        "AAT": {
+            "caption": "Show call to action button?",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "showCTAButton",
+            "rank": 3
+        },
+        "AAU": {
+            "caption": "CTA button label",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "ctaLabel",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "Default bubble width",
+            "default_val": 280,
+            "editor": "StaticNumber",
+            "name": "defaultBubbleWidth",
+            "rank": 5
+        },
+        "AAa": {
+            "caption": "Default bubble padding",
+            "default_val": 15,
+            "editor": "StaticNumber",
+            "name": "defaultBubblePadding",
+            "rank": 6
+        },
+        "AAb": {
+            "caption": "Scroll duration (milliseconds)",
+            "default_val": 1000,
+            "editor": "StaticNumber",
+            "name": "scrollDuration",
+            "rank": 7
+        },
+        "AAf": {
+            "caption": "Show close button?",
+            "default_val": true,
+            "editor": "Checkbox",
+            "in_style": false,
+            "name": "showCloseButton",
+            "rank": 0
+        },
+        "AAs": {
+            "caption": "Show next button?",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "showNextButton",
+            "rank": 2
+        },
+        "AAv": {
+            "caption": "Translate text?",
+            "default_val": false,
+            "doc": "Check this box to translate the tour using the text specified below",
+            "editor": "Checkbox",
+            "in_style": false,
+            "name": "translateTour",
+            "rank": 8
+        },
+        "AAw": {
+            "caption": "Next button label",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "long_text": false,
+            "name": "nextButtonLabel",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "AAx": {
+            "caption": "Back button label",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "prevButtonLabel",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "AAy": {
+            "caption": "Done button label",
+            "editor": "DynamicValue",
+            "name": "doneButtonLabel",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        },
+        "AAz": {
+            "caption": "Step number labels",
+            "doc": "Please separate the step labels with commas --> I,II,III,IV,V",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "stepNumberLabels",
+            "optional": true,
+            "options": "",
+            "rank": 12,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-map",
+    "states": {
+        "AAc": {
+            "caption": "Step number",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "stepNumber",
+            "value": "number"
+        }
+    }
+}

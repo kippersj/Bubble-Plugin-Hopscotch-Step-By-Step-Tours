@@ -1,0 +1,99 @@
+{
+    "caption": "Add step to",
+    "fields": {
+        "AAH": {
+            "caption": "Element ID",
+            "editor": "StaticText",
+            "name": "elementId",
+            "rank": 0
+        },
+        "AAI": {
+            "caption": "Placement",
+            "default_val": "Top",
+            "editor": "Dropdown",
+            "name": "placement",
+            "options": "Top,Bottom,Right,Left",
+            "rank": 7
+        },
+        "AAJ": {
+            "caption": "Title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Content",
+            "editor": "DynamicValue",
+            "name": "content",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "Floating group?",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "fixedPosition",
+            "rank": 6
+        },
+        "AAV": {
+            "caption": "X-offset (pixels)",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "name": "xOffset",
+            "optional": false,
+            "rank": 8
+        },
+        "AAW": {
+            "caption": "Y-offset (pixels)",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "name": "yOffset",
+            "optional": false,
+            "rank": 9
+        },
+        "AAX": {
+            "caption": "Delay (milliseconds)",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "name": "delay",
+            "optional": false,
+            "rank": 12
+        },
+        "AAo": {
+            "caption": "Arrow offset (pixels)",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "name": "arrowOffset",
+            "rank": 10
+        },
+        "AAp": {
+            "caption": "Center arrow? (will override offset)",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "centerArrow",
+            "rank": 11
+        },
+        "AAr": {
+            "caption": "Advance to next step when target is clicked?",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "nextOnClick",
+            "rank": 5
+        },
+        "AAt": {
+            "caption": "Hide next button? (will override tour settings)",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "hideNext",
+            "rank": 3
+        },
+        "AAu": {
+            "caption": "Hide back button? (will override tour settings)",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "hidePrevious",
+            "rank": 4
+        }
+    }
+}

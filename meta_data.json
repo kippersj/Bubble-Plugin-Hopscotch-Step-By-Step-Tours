@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "customer support",
+        "2": "visual elements",
+        "3": "productivity"
+    },
+    "demo_page": "https://plugindemonstrations.bubbleapps.io/version-test/hopscotch",
+    "description": "Create step-by-step walkthroughs for your application. Useful for onboarding / to guide your users to specific app features",
+    "image": "//s3.amazonaws.com/appforest_uf/f1531526633841x932708857581019400/task.png",
+    "instructions": "",
+    "license": "open_source",
+    "link": "https://airdev.co/",
+    "name": "Hopscotch Step-By-Step Tours",
+    "plugin_instructions": "- In Bubble, go to Settings > General > ensure that \"Expose the option to add an ID attribute to HTML elements\" is checked\n- Add a \"Tour\" element to your Bubble page\n- Use the \"Add step to\" action to add steps to your tour one by one using element IDs (a standard method for this is adding steps on page load)\n- Use the \"Start\" action to begin your tour. Tours will start at step #1 every time\n\nTips: \n- You can configure options for the tour on the Tour element and options for each step on the \"Add step to\" action\n- You can access the current step number on the Tour element\n- You can trigger Bubble workflows based on various tour events, such as tour start or tour call-to-action button clicked \n- When you add a step for a Bubble element, make sure that element is visible at the time the step is added\n- Use \"Reset steps for\" to remove all steps that have been previously added to that tour (if you are adding steps in same workflow that you use to start the tour, consider including this action at the beginning)"
+}

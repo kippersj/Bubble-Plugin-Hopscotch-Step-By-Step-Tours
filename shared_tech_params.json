@@ -1,0 +1,23 @@
+{
+    "assets": {
+        "AAC": {
+            "name": "hopscotch.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1531522579529x745657225605100400/hopscotch.min.js"
+        },
+        "AAh": {
+            "name": "../img/sprite-orange.png",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1535488801512x743430859176442000/sprite-orange.png"
+        },
+        "AAj": {
+            "name": "sprite-green.png",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1535492205696x251825199229642750/sprite-green.png"
+        },
+        "AAm": {
+            "name": "hopscotch.min.css",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1535494368290x103022248949855570/hopscotch.min.css"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}
